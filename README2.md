@@ -1,6 +1,6 @@
-#Parcial Segundo Tercio ARSW
+# Parcial Segundo Tercio ARSW
 
-##Arquitectura
+## Arquitectura
 
  Diagrama de Despliegue
 
@@ -9,7 +9,7 @@
  Diagrama de Componentes
 
 ![](ArchitectureDiagrams/ComponentDiagram.png)
-##Ejecución Programa de forma local
+## Ejecución Programa de forma local
 1. Clonar el repositorio con el comando:
     ```
     git clone https://github.com/conejihan/Nicolas-Medina-ARSW-T2
