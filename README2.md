@@ -2,11 +2,11 @@
 
 ##Arquitectura
 
-### Diagrama de Despliegue
+ Diagrama de Despliegue
 
 ![](ArchitectureDiagrams/DeploymentDiagram.png)
 
-### Diagrama de Componentes
+ Diagrama de Componentes
 
 ![](ArchitectureDiagrams/ComponentDiagram.png)
 ##Ejecución Programa de forma local
