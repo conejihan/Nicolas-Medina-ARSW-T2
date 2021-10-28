@@ -4,5 +4,6 @@ import org.json.JSONObject;
 
 public interface HttpConnectionService {
     JSONObject getAllCases();
+    JSONObject getCasesByCountry(String country);
 
 }

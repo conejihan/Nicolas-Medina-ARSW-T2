@@ -6,8 +6,10 @@ package edu.eci.arsw.services.impl;
 public class CoronaVirusTestServiceIMPL implements CoronaVirusTestService {
     @Autowired
     HttpConnectionService httpConnectionService;
-
-    public CountryResultsgetCasesByCountry(String country){
+    public Set<CountryResults> getAllCases(){
+        JSONObject countryResults = httpConnectionService.getAllCases();
+    }
+    public CountryResults getCasesByCountry(String country){
         JSONObject countryResults = httpConnectionService.getCasesByCountry(country);
     }
 }
